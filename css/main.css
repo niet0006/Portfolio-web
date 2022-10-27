@@ -57,9 +57,12 @@ body{
 
 header{
     background-color:#232946 ;
-
-
 }
+
+b{
+    font-weight: bold;
+}
+
 nav{
     background-color:#EEBBC3; ;
     padding-bottom: 30px; 
@@ -99,7 +102,7 @@ h5{
 }
 
 
-.header-tittle {
+.header-title {
     width: 80%;
     font-size: 40px;
     font-weight: bold;
@@ -413,3 +416,84 @@ footer .menu-options a{
     text-align: center;
     padding:15px;
 }
+
+/*----------------End Homepage-------------------------*/
+
+.about-container{
+    padding-top: 40px;
+    background-color: #ffffff;
+}
+
+.about-info{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    text-align: left;
+    margin: 0 auto;
+}
+.about-info p{
+    line-height: 25px
+}
+
+.img-container{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about-container img {
+    
+    padding-top: 30px;
+    width: 70%;
+    text-align: center;
+    
+}
+
+/*----------------End About-------------------------*/
+
+.title-container{
+    padding-top: 40px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title-info{
+    text-align: left;
+    line-height: 25px;
+}
+
+.title-info h2{
+    line-height: 40px;
+    margin-bottom: 5px;
+    
+}
+
+.title-info h4{
+    text-align: center;
+}
+
+.title-info p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.banner-image img {
+    width: 100%;
+}
+
+.info h3{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.objectives{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info h5{
+    
+}
+
