@@ -66,7 +66,7 @@ nav{
 }
 
 
-nav a{
+nav  a{
     display:block;
     text-align: center;
     color: #232946;
@@ -261,11 +261,15 @@ width: 80%;
     justify-content: center;
     text-align: center;
     background-color: #D6ECFF;
+    margin-bottom:  30px;
+    border-radius: 10px;
+
 
 }
 
 .project-container img{
     width: 100%;
+    border-radius: 10px;
 }
 
 .project-info{
@@ -277,7 +281,8 @@ width: 80%;
     width: 80%;
     padding-top: 30px;
     margin: 0 auto;
-    padding: 
+    margin-bottom: 25px;
+ 
 
 }
 
@@ -296,8 +301,6 @@ width: 80%;
     display: block;
     width: 200px;
     height: 40px;
-
- 
     text-align: center;
     border-radius: 5px ;
     color:#ffffff;
@@ -309,7 +312,104 @@ width: 80%;
 }
 
 
+.project-container-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #EEE3E5;
+    margin-bottom:  30px;
+    border-radius: 10px;
+
+}
+
+.project-container-two img{
+    width: 100%;
+    border-radius: 10px;
+
+}
 
 
+.project-info-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EEE3E5;
+    height: 200px;
+    width: 80%;
+    padding-top: 30px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+ 
+
+}
+
+.project-info-two p{
+    padding-bottom: 20px;
+}
+
+.project-info-two h3{
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button-four{
+    margin-top: 20px;
+    display: block;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px ;
+    color:#232946;
+    font-weight: bold;
+    line-height: 38px;
+    text-decoration: none;
+    background-color:#EEBBC3;
+    
+
+}
 
 
+/*----------------Projects-------------------------
+*/
+
+footer{
+    background-color: #232946;
+}
+
+.footer-info{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .menu-options a{
+    display:block;
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    text-decoration: none
+    
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.social a{
+    display: block;
+    text-align: center;
+
+}
+
+.copyright{
+    background-color: #ffffff;
+    text-align: center;
+    padding:15px;
+}
