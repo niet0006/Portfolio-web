@@ -452,6 +452,7 @@ footer .menu-options a{
 
 /*----------------End About-------------------------*/
 
+
 .title-container{
     padding-top: 40px;
     width: 80%;
@@ -482,10 +483,11 @@ footer .menu-options a{
     width: 100%;
 }
 
-.info h3{
+.container-project h3{
     font-size: 22px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 40px;
 }
 
 .objectives{
@@ -494,6 +496,79 @@ footer .menu-options a{
 }
 
 .info h5{
+    margin-top: 12px;
+    font-size: 20px;
+    color: #232946;
+    text-align: left;
+
+}
+
+.container-project p{
+
+    text-align: left;
+
+}
+
+.container-project h2{
+    margin-top:40px ;
+}
+
+.statement-container, .research-container, .ideation-container, .conclusion
+{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
     
 }
+
+.statement-container p, .research-container p, .ideation-container p, .conclusion p{
+    text-align: left;
+    line-height: 25px;
+    margin-top: 20px;
+    
+}
+
+.research-container img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.grid-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns:  repeat(2, 1fr);
+   grid-gap: 18px;
+    place-content: center;
+}
+
+.point-info{
+    border: 2px solid #e7e7e7;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    place-content: center;
+    overflow: hidden;
+
+    }
+
+.grid-container img{
+width: 6vh;
+height: auto;
+
+}
+
+.info-text h5{
+color: #232946;
+margin-top: 5px;
+}
+
+.conclusion{
+    margin-bottom: 5vh;
+}
+
+/*----------------End Sushi Project-------------------------*/
+
+
 
