@@ -708,13 +708,24 @@ margin-top: 5px;
 
     footer .menu-options {
         display: none;
+
+    }
+
+    .footer-info{
+        padding-left: 2%;
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 28%;
     }
 
 
-/*----------------Nav -------------------------*/
+/*----------------Footer -------------------------*/
+
 
 
 
 }
 
-/*----------------Nav -------------------------*/
+
