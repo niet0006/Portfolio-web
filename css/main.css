@@ -723,7 +723,28 @@ margin-top: 5px;
 
 /*----------------Footer -------------------------*/
 
+.about{
+    background-color: white;
+}
 
+.about-container{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 5%;
+
+   
+}
+
+.about-info h2{
+    text-align: start;
+}
+
+.img-container img{
+    width: auto;
+}
+
+}
 
 
 }
