@@ -704,24 +704,8 @@ margin-top: 5px;
         height: auto;
         }
 
+/*----------------Projects cards -------------------------*/
 
-
-    footer .menu-options {
-        display: none;
-
-    }
-
-    .footer-info{
-        padding-left: 2%;
-        width: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        gap: 28%;
-    }
-
-
-/*----------------Footer -------------------------*/
 
 .about{
     background-color: white;
@@ -743,6 +727,71 @@ margin-top: 5px;
 .img-container img{
     width: auto;
 }
+
+/*----------------About page -------------------------*/
+
+.title-info{
+    width:60%;
+    margin: auto;
+    padding-bottom: 3%;
+}
+
+.problem-statement{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+.statement-container{
+    display: flex;
+    gap: 5%
+    ;
+
+}
+
+.statement-container img{
+    width:50%;
+}
+
+.statement-info{
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    footer .menu-options {
+        display: none;
+
+    }
+
+    .footer-info{
+        padding-left: 2%;
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 28%;
+    }
+
+
+/*----------------Footer -------------------------*/
+
+
 
 }
 
