@@ -1,0 +1,214 @@
+@media only screen and (min-width:  1225px) {
+ 
+    .header-menu{
+        display: flex;
+        align-items:center;
+        width: 100%;
+        gap: 45%;
+    }
+    
+    .menu-logo img{
+        width: 30px;
+       
+    }
+    .menu-logo{
+        margin-left: 16%;
+      
+    }
+
+    nav{
+        padding-bottom: 0%;
+    }
+
+    nav ul{
+        display: flex;    
+        justify-content: flex-end;
+       
+        }
+    
+    .menu-options{
+        flex-basis: 10%;
+    }
+/*----------------Nav -------------------------*/
+    
+    .container-header{
+        display: flex;   
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .header-left{
+        flex-basis: 50%;
+        padding-left: 100px;
+        
+    }
+
+    .header-title{
+        width: 100%;
+    }
+    .header-title h1{
+        font-size: 50px;
+        text-align: left;
+      
+    }
+
+    .name h5{
+        
+        text-align: center;
+    }
+
+
+    .buttons{
+        margin-top: 68px;
+        margin-left:0 ;
+    }
+
+    .section-info{
+        height: auto;
+        
+
+    }
+
+    .info-container{
+        padding-top: 10px;
+        width: 50%;
+        margin: 0 auto;
+
+    }
+
+    .header-left{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .buttons{
+        justify-content: flex-start;
+    }
+
+    .container-skills{
+        width: 80%;
+    }
+
+    .card-skills{
+        width: 21%;
+    }
+
+    .skill{
+        width: auto;
+    }
+
+    .project-container, .project-container-two{
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+           
+    }
+
+    .project-info, .project-info-two{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        }
+
+/*----------------Projects cards -------------------------*/
+
+
+.about{
+    background-color: white;
+}
+
+.about-container{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 5%;
+
+   
+}
+
+.about-info h2{
+    text-align: start;
+}
+
+.img-container img{
+    width: auto;
+}
+
+/*----------------About page -------------------------*/
+
+.title-info{
+    width:60%;
+    margin: auto;
+    padding-bottom: 3%;
+}
+
+.problem-statement{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+.statement-container{
+    display: flex;
+    gap: 5%
+    ;
+
+}
+
+.statement-container img{
+    width:50%;
+}
+
+.statement-info{
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    footer .menu-options {
+        display: none;
+
+    }
+
+    .footer-info{
+        padding-left: 2%;
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 28%;
+    }
+
+    */
+
+
+
+/*----------------Footer -------------------------*/
+
+
+
+
+
+
+}
+

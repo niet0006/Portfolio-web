@@ -587,7 +587,10 @@ margin-top: 5px;
  
 /*----------------End Mobile -------------------------*/
 
-@media only screen and (min-width:  1025px) {
+
+@media only screen and (min-width:  40em) 
+
+{
  
     .header-menu{
         display: flex;
@@ -757,29 +760,12 @@ margin-top: 5px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    footer .menu-options {
+ footer .menu-options {
         display: none;
 
     }
 
-    .footer-info{
+.footer-info{
         padding-left: 2%;
         width: auto;
         display: flex;
@@ -789,13 +775,5 @@ margin-top: 5px;
     }
 
 
-/*----------------Footer -------------------------*/
-
-
-
-
-
-
 }
-
 
