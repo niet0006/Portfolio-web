@@ -187,12 +187,19 @@ img{
     padding-bottom: 40px;
 }
 
-.info-container{
-    width: 80%;
+.info-project{
+    background-color: #D6ECFF;
+    padding-bottom: 40px;
+}
+
+.info, .info-container{
+    width: 68%;
     margin: 0 auto;
     text-align: center;
     line-height: 25px;
 }
+
+
 
 /*----------------Description-------------------------
 */
@@ -255,6 +262,7 @@ padding-bottom: 20px;
     width: 100%;
     margin:0 auto;
     text-align: center;
+    margin-bottom: 80px;
 }
 
 .section-projects h2{
@@ -269,7 +277,7 @@ padding-bottom: 20px;
     background-color: #D6ECFF;
     margin-bottom:  30px;
     border-radius: 10px;
-
+    margin-top: 50px;
 
 }
 
@@ -412,6 +420,10 @@ footer .menu-options a{
     display: block;
     text-align: center;
 
+}
+
+.social img{
+    width: 70%;
 }
 
 .copyright{
@@ -670,7 +682,7 @@ margin-top: 5px;
 
     }
 
-    .info-container{
+    .info{
         padding-top: 10px;
         width: 50%;
         margin: 0 auto;
