@@ -190,6 +190,7 @@ img{
 .info-project{
     background-color: #D6ECFF;
     padding-bottom: 40px;
+    padding-top: 20px;
 }
 
 .info, .info-container{
@@ -530,9 +531,15 @@ footer .menu-options a{
     margin-top:40px ;
 }
 
+.ideation-img img{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .statement-container, .research-container, .ideation-container, .conclusion
 {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     text-align: center;
     
@@ -684,7 +691,6 @@ margin-top: 5px;
 
     .info{
         padding-top: 10px;
-        width: 50%;
         margin: 0 auto;
 
     }
@@ -712,6 +718,9 @@ margin-top: 5px;
         width: auto;
     }
 
+    /*----------------Header -------------------------*/
+
+
     .project-container, .project-container-two{
         display: flex;
         flex-direction: row;
@@ -733,34 +742,12 @@ margin-top: 5px;
 
 
 
-
-/*----------------About page -------------------------*/
-
 .title-info{
     width:60%;
     margin: auto;
     padding-bottom: 3%;
 }
 
-.problem-statement{
-    width: 90%;
-    margin: auto;
-    margin-top: 100px;
-}
-.statement-container{
-    display: flex;
-    gap: 5%
-    ;
-
-}
-
-.statement-container img{
-    width:50%;
-}
-
-.statement-info{
-    width: 50%;
-}
 
 
  footer .menu-options {
@@ -802,5 +789,33 @@ margin-top: 5px;
 .about-info h2{
     text-align: start;
 }
+
+/*----------------About page -------------------------*/
+
+
+
+
+.problem-statement{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+.statement-container{
+    display: flex;
+    gap: 5%
+    ;
+
+}
+
+.statement-container img{
+    width:50%;
+}
+
+.statement-info{
+    width: 50%;
+}
+
+/*----------------Project statement -------------------------*/
+
 
 }
